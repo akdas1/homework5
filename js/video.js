@@ -39,7 +39,6 @@ function fasterRate(){
        window.alert('Video is at fastest speed!');
     }
 }
-
 fasterButton.addEventListener('click',fasterRate);
 
 let skipButton=document.getElementById("skip");
@@ -73,9 +72,7 @@ function slidervolume(){
     video.volume = slider.value / 100;
     volume.innerHTML = slider.value;
 }
-
 slider.addEventListener('change',slidervolume);
-
 
 video.load();
 video.autoplay = false;
